@@ -63,7 +63,7 @@ public class PasswordStorage implements CommandLineRunner {
                 System.out.println("Removing all passwords from database!");
                 passwordStore.clear();
             } else {
-                System.out.println("Invalid command. Available commands: add website password, remove website, get website, getall, quit");
+                System.out.println("Invalid command. Available commands: add website password, remove website, get website, getall, removeall, quit");
             }
         }
     }
