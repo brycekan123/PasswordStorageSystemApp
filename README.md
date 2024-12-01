@@ -1,22 +1,32 @@
 ## Password Storage System
 
-
 ### To run the code:
 
 - git clone https://github.com/brycekan123/PasswordStorageSystemApp.git
 
-- Navigate to this folder(demo/src/main/java/com/example/demo) and run PasswordStorageMain.java. 
+- Navigate to this folder(demo/src/main/java/com/example/demo) and run PasswordStorage.java. 
 
 ### Description of Project:
+
+```
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _ | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+ ```
+
 Although not revolutionary, I wanted to showcase some of the topics I have learned as an MSCS student in my first semester at USC and explore new topics with my existing class knowledge.
 Topics of this project: Spring Boot, RestAPIs, Object Oriented Design in Java.
-
-
 This project uses the terminal and leverages RestAPIs and SpringBoot to make an interactive password storage system. The user will always be shown with a terminal command line prompt until they decide to quit the application. 
 
 - I used REST API to allow for external Systems to interact with my application's backend logic via HTTP. This allows for a more efficient process and seamless process for individuals to access the passwords they desire at anytime.
 For Example, if the user types in (http://localhost:8080/getAllPasswords) in their browser while application is running, they will be able to see all their passwords instead of loading through the terminal.
- - With the help of Spring Boots application, which simplifies the management of the application as it handles the required libraries for REST APIs and JSON processing. 
+ - With the help of Spring Boots application that uses gradle, it simplified the management of the application as it handled the required libraries for REST APIs and JSON processing. 
 Additionally, Spring Boot has a built in Tomcat Server that allows the application to run locally and display the messages that the user desired on a local browswer. Specific HTTP endpoints were mapped to specific functions to entire that requests were unique.
 
 ### Examples of REST API Usage
