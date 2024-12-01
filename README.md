@@ -3,10 +3,9 @@
 
 ### To run the code:
 
-git clone 
+- git clone https://github.com/brycekan123/PasswordStorageSystemApp.git
 
-The java file with all the functions are located in folder ....
-
+- Navigate to this folder(demo/src/main/java/com/example/demo) and run PasswordStorageMain.java. 
 
 ### Description of Project:
 Although not revolutionary, I wanted to showcase some of the topics I have learned as an MSCS student in my first semester at USC and explore new topics with my existing class knowledge.
