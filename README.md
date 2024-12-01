@@ -20,9 +20,7 @@
 
  ```
 
-Although not revolutionary, I wanted to showcase some of the topics I have learned as an MSCS student in my first semester at USC and explore new topics with my existing class knowledge.
-Topics of this project: Spring Boot, RestAPIs, Object Oriented Design in Java.
-This project uses the terminal and leverages RestAPIs and SpringBoot to make an interactive password storage system. The user will always be shown with a terminal command line prompt until they decide to quit the application. 
+Although not revolutionary, I wanted to showcase some of the topics I have learned as an MSCS student in my first semester at USC and explore new topics with my existing class knowledge. Topics of this project: Spring Boot, RestAPIs, Object Oriented Design in Java. This project uses the terminal and leverages RestAPIs and SpringBoot to make an interactive password storage system. The user will always be shown with a terminal command line prompt until they decide to quit the application. 
 
 - I used REST API to allow for external Systems to interact with my application's backend logic via HTTP. This allows for a more efficient process and seamless process for individuals to access the passwords they desire at anytime.
 For Example, if the user types in (http://localhost:8080/getAllPasswords) in their browser while application is running, they will be able to see all their passwords instead of loading through the terminal.
