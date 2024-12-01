@@ -4,7 +4,7 @@
 
 - git clone https://github.com/brycekan123/PasswordStorageSystemApp.git
 
-- Navigate to this folder(demo/src/main/java/com/example/demo) and run PasswordStorage.java. 
+- Navigate to this folder(demo/src/main/java/com/example/demo) and run PasswordStorage.java using Run Button. 
 
 ### Description of Project:
 
